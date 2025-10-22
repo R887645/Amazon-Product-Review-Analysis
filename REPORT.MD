@@ -11,51 +11,51 @@
 - Build a visually engaging, data-driven dashboard for decision-making
 
 ## Data Preparation and Dashboard Design Process
-1. Data Cleaning (Power Query)
+1. **Data Cleaning (Power Query)**
 - Removed duplicate entries and standardized numeric fields (e.g., price, discounts, and ratings).
 - Replaced or removed missing data in rating and discount columns to ensure completeness.
 - **Achievement:** Improved dataset accuracy by **98%**, enabling error-free analysis across **2,000+** product records
 
-2. Feature Engineering
+2. **Feature Engineering**
 - Created derived columns such as:
 - **Price Buckets:** ₹0–₹500, ₹501–₹2000, ₹2001–₹5000, and ₹5001+.
 - **Discount Percentage:** ((MRP - Sale Price) / MRP) × 100.
 - **Effective Price:** MRP minus discount value.
 - **Achievement:** Added 3 new analytical features that improved dashboard insights by 40%.
 
-3. Pivot Tables & Calculations
+3. **Pivot Tables & Calculations**
 - Aggregated data by category, rating, and review count.
 - Computed average prices, mean ratings, and total reviews per category.
 - **Achievement:** Enabled one-click insights into 10+ product categories and pricing segments.
 
-4. Dashboard Design (Two Interactive Sheets)
+4. **Dashboard Design (Two Interactive Sheets)**
 - **Sheet 1:** KPI overview showing key statistics (total reviews, top categories, and pricing bands).
 - **Sheet 2:** Visual breakdown of trends using bar charts, scatter plots, and pie charts.
 - **Tools used:** Excel Pivot Tables, Power Query, and Charts.
 - **Achievement:** Designed a professional dashboard that reduced reporting time by 60%, enabling instant business insight visualization.
 
 ## Key Metrics and Insights Visualized in Dashboard
-1. High Customer Engagement
+1. **High Customer Engagement**
 - The platform recorded over 36 million total reviews, showing exceptional customer interaction and platform reliability.
 - **Achievement:** Identified top engagement drivers across categories, boosting potential for targeted marketing campaigns.
 
-2. Most Products Have 1000+ Reviews
+2. **Most Products Have 1000+ Reviews**
 - Only 188 products (12%) had fewer than 1000 reviews.
 - **Insight:** Strong overall visibility across listings, with opportunities to improve engagement for under-reviewed products.
 - **Achievement:** Increased awareness of low-engagement segments representing 12% of inventory.
 
-3. Mid-Range Pricing Dominates
+3. **Mid-Range Pricing Dominates**
 - Products priced between ₹501–₹2000 formed the largest segment with 45% of total listings.
 - **Insight:** Customers favor mid-tier products, indicating optimal price sensitivity in this range.
 - **Achievement:** Highlighted a target segment for promotional campaigns that could increase conversion by up to 20%.
 
-4. Discount vs. Rating Relationship
+4. **Discount vs. Rating Relationship**
 - Products with **0–20%** discounts had the highest average rating (≈4.21).
 - Highly discounted items (>40%) had visibly lower ratings (~3.8).
 - **Insight:** Excessive discounting negatively affects perceived value and customer trust.
 - **Achievement:** Provided data-backed recommendations to cap average discount rates below 25% for premium items.
 
-5. Top Categories by Revenue and Reviews
+5. **Top Categories by Revenue and Reviews**
 -Electronics generated the highest revenue (₹16.47 billion) and reviews.
 - Computers & Accessories followed closely, contributing significantly to both metrics.
 - **Achievement:** Identified two key categories driving 60% of total revenue, offering a blueprint for category-level strategy replication.
